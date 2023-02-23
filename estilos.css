@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Serif+Pro:ital@1&display=swap');
+
+body{
+    margin: 0;
+    background-color: #0a0603; 
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 136px;
+    z-index: 100;
+   
+}
+
+ul{
+    display: flex;
+    gap: 80px;
+}
+
+.nav-bar-left{
+    padding: 0;
+}
+
+.nav-bar-right{
+    padding: 0;
+}
+
+ul li{
+   padding: 36px;
+   list-style: none;
+   font-family: 'Libre Baskerville', serif;
+   font-size: 24px;
+   font-weight: bold;
+   border: 2px solid #F6E084;
+   border-radius: 56px;
+   color: #C5B58C;
+}
+
+ul li:hover{
+    background-color: #333533;
+}
+
+.logo{
+    width: 164px;
+    padding-left: 16px;
+}
+
+.new-album-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure img{
+    margin: 146px 50px 146px 50px;
+    padding: 0 240px;
+    background-color: black;
+}
+
+.the-chronic{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 340px;
+    bottom: 605px;
+}
+
+.descripcion{
+    font-size: 36px;
+    background: linear-gradient(to right,#DEC489,#F6E084,#D1B372,#E3CC97,#BF9A53 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position:relative;
+    bottom:200px;
+}
+
+figure p{
+    font-size: 66px;
+    position: absolute;
+    top: 170px;
+    background: linear-gradient(to right,#DEC489,#F6E084,#D1B372,#E3CC97,#BF9A53 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: ui-monospace;
+}
+
+.buy-button-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buy-button{
+    font-size: 25px;
+    width: 90px;
+    height: 48px;
+    position: relative;
+    bottom: 1040px;
+    background: navajowhite;
+    border-radius: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.subscribe-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.subscribe{
+    background: linear-gradient(to right,#DEC489,#F6E084,#D1B372,#E3CC97,#BF9A53 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-family: auto;
+    position: relative;
+    bottom: 520px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 500px;
+}
+
+label input:nth-child(1){
+    font-size: 30px;
+    border: none;
+    border-bottom: 3px solid #F6E084;
+    background: #0a0603;
+
+}
+
+label input:nth-child(2){
+    background: linear-gradient(to right,#DEC489,#F6E084,#D1B372,#E3CC97,#BF9A53 100%);
+    font-size: 30px;
+    border-radius: 16px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.background-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background{
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    position: relative;
+    bottom: 360px;
+}
+
+.channels-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stay-connected{
+    color: black;
+    font-size: 50px;
+    position: relative;
+    bottom: 730px;
+    font-family: inherit
+}
+
+.redes-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+div img{
+    width: 60px;
+    position: relative;
+    bottom: 664px;
+}
+
+.apple-icon{
+    width: 100px;
+}
+
+.bandcamp-icon{
+    width: 100px;
+}
+
+.spotify-icon{
+    width: 100px;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-footer{
+    background-color: transparent;
+    position: relative;
+    right: 440px;
+    bottom: 480px;
+    padding: 0px;
+    margin: 0;
+}
+
+.overall-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.overall-container li{
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 4px;
+    position: relative;
+    left: 600px;
+    bottom: 670px;
+}
+
+.overall-container li:nth-child(1){
+    font-size: 24px;
+    color: #C5B58C;
+    padding-bottom: 16px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-container li{
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 4px;
+    position: relative;
+    left: 844px;
+    bottom: 850px;
+}
+
+.about-container li:nth-child(1){
+    font-size: 24px;
+    color: #C5B58C;
+    padding-bottom: 16px;
+}
+
+.support-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.support-container li{
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 4px;
+    position: relative;
+    left: 1060px;
+    bottom: 1027px;
+}
+
+.support-container li:nth-child(1){
+    font-size: 24px;
+    color: #C5B58C;
+    padding-bottom: 16px;
+}
